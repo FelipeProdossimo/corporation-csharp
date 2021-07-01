@@ -89,25 +89,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlteraExcluiUsuario.cs">
+    <Compile Include="frmEditar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlteraExcluiUsuario.Designer.cs">
-      <DependentUpon>AlteraExcluiUsuario.cs</DependentUpon>
+    <Compile Include="frmEditar.Designer.cs">
+      <DependentUpon>frmEditar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastrar.cs">
+    <Compile Include="frmInserir.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastrar.Designer.cs">
-      <DependentUpon>Cadastrar.cs</DependentUpon>
+    <Compile Include="frmInserir.Designer.cs">
+      <DependentUpon>frmInserir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListar.Designer.cs">
+      <DependentUpon>frmListar.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AlteraExcluiUsuario.resx">
-      <DependentUpon>AlteraExcluiUsuario.cs</DependentUpon>
+    <EmbeddedResource Include="frmEditar.resx">
+      <DependentUpon>frmEditar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastrar.resx">
-      <DependentUpon>Cadastrar.cs</DependentUpon>
+    <EmbeddedResource Include="frmInserir.resx">
+      <DependentUpon>frmInserir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListar.resx">
+      <DependentUpon>frmListar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

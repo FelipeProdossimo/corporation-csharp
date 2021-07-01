@@ -16,7 +16,7 @@ namespace inserirUsuario
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmInserir());
+            Application.Run(new frmListar());
         }
     }
 }
